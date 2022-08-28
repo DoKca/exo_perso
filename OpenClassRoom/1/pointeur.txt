@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int i = 10;
+    int *m = &i;
+    printf("%d - %d - %d - %d", i, *m, m, &m);
+    //10 - 10 - 6422044 - 6422032
+
+    return 0;
+}
